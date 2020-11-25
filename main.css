@@ -1,0 +1,164 @@
+h1, h2 {
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    mix-blend-mode: difference;
+}
+
+h3, h4, h5, h6, a, p {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    mix-blend-mode: difference;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+body {
+    background-color: #000000;
+}
+
+#Welcome {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Welcome h1 {
+    font-size: 10rem;
+}
+
+main section {
+    min-height: 100vh;
+    border: 1px solid #000000;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    min-height: 40px;
+    background-color: black;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 10rem;
+    margin-bottom: px;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 400px;
+    margin-top: 400px;
+    font-size: 10rem;
+}
+
+#About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#About p {
+    margin: 0 20rem;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 3.0;
+}
+
+.formeabout {
+    width: 60%
+}
+
+#WhereandWhen {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.rond1 {
+    width: 5%;
+    margin: auto;
+}
+
+#Horraires {
+    float: left;
+    margin-left: 20%
+}
+
+#Horraires p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 3.0;
+}
+
+#Addresse {
+    margin-left: 70%
+}
+
+#Addresse p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 3.0;
+}
+
+.rond2 {
+    width: 10%;
+    margin: auto;
+}
+
+.rond3 {
+    width: 20%;
+    margin: auto;
+}
+
+.rond4 {
+    width: 30%;
+    margin: auto;
+}
+
+#ThisWeek {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1sfr 1fr;
+    grid-gap: 1rem;
+}
+
+.row .cover img {
+    max-width: 25%;
+    margin: 10%
+}
+
+.row .description {
+    display: flex;
+    align-items: flex-end;
+}
+
+.row:nth-child(odd) {
+    direction: rtl;
+}
+
+.forme2 {
+    width: 70%;
+    margin: auto;
+}
+
+#Who {
+    text-align: center;
+    font-size: 4rem;
+}
+
+#stay {
+    text-align: center;
+    font-size: 4rem;
+}
+
+#resau
