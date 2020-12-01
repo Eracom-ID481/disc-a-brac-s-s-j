@@ -14,6 +14,10 @@ a {
     text-decoration-line: none;
 }
 
+img {
+    max-width: 100%;
+}
+
 body {
     background-color: #000000;
 }
@@ -43,7 +47,7 @@ nav {
     background-color: black;
     text-align: center;
     font-size: 15px;
-    margin: 0 10rem;
+    /*    margin: 0 10rem;*/
     margin-bottom: px;
 }
 
@@ -223,4 +227,78 @@ header h1 {
 
 .description h4 {
     margin-top: 10%;
+}
+
+@media only screen and (max-width: 800px) {
+    nav {
+        position: sticky;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        font-size: 15px;
+        /*margin: 0 5rem;*/
+        width: 100%;
+    }
+
+    #About p {
+        margin: 0 5rem;
+        font-size: 15px;
+        letter-spacing: 2px;
+        text-align: center;
+        line-height: 3.0;
+        margin-top: 5%;
+    }
+
+    #WhereandWhen {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    #ThisWeek {
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+
+    #Who {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    #stay {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .who-section img {
+        max-width: 50%;
+        margin: auto;
+    }
+
+    .row-flex {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+
+    .row-flex.cover img {
+        max-height: 5%;
+        margin: 2%
+    }
+
+    .row-flex .description {
+        /*    display: flex;*/
+    }
+
+    .row-flex :nth-child(odd) {
+        direction: rtl
+    }
+
+    .row-flex h4 {
+        font-size: 1rem;
+    }
 }
