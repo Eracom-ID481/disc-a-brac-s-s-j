@@ -125,26 +125,31 @@ header h1 {
 #ThisWeek {
     text-align: center;
     font-size: 4rem;
+    margin-top: 10%;
+    margin-bottom: 15%;
 }
 
-.row {
+.row-flex {
     display: grid;
-    grid-template-columns: 1sfr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
 }
 
-.row .cover img {
-    max-width: 25%;
+.row-flex.cover img {
+    width: 20%;
     margin: 10%
 }
 
-.row .description {
-    display: flex;
-    align-items: flex-end;
+.row-flex .description {
+    /*    display: flex;*/
 }
 
-.row:nth-child(odd) {
-    direction: rtl;
+.row-flex :nth-child(odd) {
+    direction: rtl
+}
+
+.row-flex h4 {
+    font-size: 1.5rem;
 }
 
 .forme2 {
@@ -175,10 +180,26 @@ header h1 {
     justify-content: center;
 }
 
-.logos {
-    display: inline-block;
+.who-section {
+    display: flex;
 }
 
-.logos>img {
-    width: 200%;
+.who-section img {
+    max-width: 25%;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+.who-section h4 {
+    font-size: 1.5rem;
+}
+
+.logos {
+    text-align: center;
+    padding: 10%;
+}
+
+.logos img {
+    width: 200px;
+    display: inline-block;
 }
