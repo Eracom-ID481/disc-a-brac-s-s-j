@@ -187,10 +187,6 @@ header h1 {
     justify-content: center;
 }
 
-.who-section {
-    display: flex;
-}
-
 .who-section img {
     max-width: 25%;
     margin: auto;
@@ -277,6 +273,10 @@ header h1 {
         margin: auto;
     }
 
+    .who-section {
+        width: 100%;
+    }
+
     .row-flex {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -301,4 +301,8 @@ header h1 {
     .row-flex h4 {
         font-size: 1rem;
     }
+}
+
+.logos a:last-child {
+    margin-left: 2rem;
 }
